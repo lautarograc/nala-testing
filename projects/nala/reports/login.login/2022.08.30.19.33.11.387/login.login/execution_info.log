@@ -1,0 +1,20 @@
+19:33:11.587 INFO Test execution started: login.login
+19:33:11.587 INFO Browser: chrome
+19:33:11.588 INFO Test started: test
+19:33:11.588 INFO Navigate to: 'https://staging.nalarocks.com/'
+19:33:38.215 ERROR ElementNotFound: Element data-testid="input-text-controller" not found using selector css:'data-testid="input-text-controller"'
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 6, in test
+    send_keys(('data-testid="input-text-controller"'), 'nala@nalarocks.com')
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 1576, in send_keys
+    element = get_browser().find(element)
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py", line 177, in find
+    return common._find(self, element, id, name, link_text, partial_link_text, css,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 130, in _find
+    webelement = _find_webelement(self, selector_type, selector_value, element_name,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 46, in _find_webelement
+    raise ElementNotFound('Element {0} not found using selector {1}:\'{2}\''
+golem.core.exceptions.ElementNotFound: Element data-testid="input-text-controller" not found using selector css:'data-testid="input-text-controller"'
+19:33:38.360 INFO Test Result: CODE ERROR

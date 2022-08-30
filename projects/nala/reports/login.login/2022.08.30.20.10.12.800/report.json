@@ -1,0 +1,41 @@
+{
+    "tests": [
+        {
+            "test_file": "login.login",
+            "test": "setup",
+            "set_name": "",
+            "environment": "",
+            "result": "code error",
+            "description": "",
+            "browser": "",
+            "test_data": {},
+            "steps": [],
+            "errors": [
+                {
+                    "message": "SyntaxError: invalid syntax",
+                    "description": "  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 6\n    navigate(https://es.wikipedia.org/wiki/Wikipedia:Portada)\n                  ^\nSyntaxError: invalid syntax\n"
+                }
+            ],
+            "elapsed_time": null,
+            "timestamp": "2022.08.30.20.10.12.992"
+        }
+    ],
+    "params": {
+        "browsers": [
+            {
+                "name": "chrome",
+                "capabilities": {}
+            }
+        ],
+        "processes": 1,
+        "environments": [],
+        "tags": [],
+        "remote_url": ""
+    },
+    "total_tests": 1,
+    "totals_by_result": {
+        "code error": 1
+    },
+    "net_elapsed_time": 0.0,
+    "has_finished": true
+}

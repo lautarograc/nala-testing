@@ -1,0 +1,77 @@
+2022-08-30 19:05:21,127 root INFO Test execution started: login.login
+2022-08-30 19:05:21,127 root INFO Browser: chrome
+2022-08-30 19:05:21,128 root INFO Test started: test
+2022-08-30 19:05:21,128 root INFO Navigate to: 'https://staging.nalarocks.com/'
+2022-08-30 19:05:22,132 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35451/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}
+2022-08-30 19:05:22,134 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:35451
+2022-08-30 19:05:22,508 urllib3.connectionpool DEBUG http://127.0.0.1:35451 "POST /session HTTP/1.1" 200 754
+2022-08-30 19:05:22,509 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:05:22,509 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35451/session/853709efadbd4900fbd8252225ed3116/window/maximize {}
+2022-08-30 19:05:22,529 urllib3.connectionpool DEBUG http://127.0.0.1:35451 "POST /session/853709efadbd4900fbd8252225ed3116/window/maximize HTTP/1.1" 200 50
+2022-08-30 19:05:22,529 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:05:22,530 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35451/session/853709efadbd4900fbd8252225ed3116/url {"url": "https://staging.nalarocks.com/"}
+2022-08-30 19:05:23,208 urllib3.connectionpool DEBUG http://127.0.0.1:35451 "POST /session/853709efadbd4900fbd8252225ed3116/url HTTP/1.1" 200 14
+2022-08-30 19:05:23,208 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:05:23,709 root DEBUG Element not found yet, remaining time: 19.50
+2022-08-30 19:05:24,210 root DEBUG Element not found yet, remaining time: 19.00
+2022-08-30 19:05:24,711 root DEBUG Element not found yet, remaining time: 18.50
+2022-08-30 19:05:25,212 root DEBUG Element not found yet, remaining time: 18.00
+2022-08-30 19:05:25,713 root DEBUG Element not found yet, remaining time: 17.50
+2022-08-30 19:05:26,213 root DEBUG Element not found yet, remaining time: 16.99
+2022-08-30 19:05:26,714 root DEBUG Element not found yet, remaining time: 16.49
+2022-08-30 19:05:27,215 root DEBUG Element not found yet, remaining time: 15.99
+2022-08-30 19:05:27,716 root DEBUG Element not found yet, remaining time: 15.49
+2022-08-30 19:05:28,217 root DEBUG Element not found yet, remaining time: 14.99
+2022-08-30 19:05:28,717 root DEBUG Element not found yet, remaining time: 14.49
+2022-08-30 19:05:29,218 root DEBUG Element not found yet, remaining time: 13.99
+2022-08-30 19:05:29,719 root DEBUG Element not found yet, remaining time: 13.49
+2022-08-30 19:05:30,220 root DEBUG Element not found yet, remaining time: 12.99
+2022-08-30 19:05:30,721 root DEBUG Element not found yet, remaining time: 12.49
+2022-08-30 19:05:31,222 root DEBUG Element not found yet, remaining time: 11.99
+2022-08-30 19:05:31,723 root DEBUG Element not found yet, remaining time: 11.49
+2022-08-30 19:05:32,224 root DEBUG Element not found yet, remaining time: 10.98
+2022-08-30 19:05:32,725 root DEBUG Element not found yet, remaining time: 10.48
+2022-08-30 19:05:33,225 root DEBUG Element not found yet, remaining time: 9.98
+2022-08-30 19:05:33,726 root DEBUG Element not found yet, remaining time: 9.48
+2022-08-30 19:05:34,227 root DEBUG Element not found yet, remaining time: 8.98
+2022-08-30 19:05:34,728 root DEBUG Element not found yet, remaining time: 8.48
+2022-08-30 19:05:35,229 root DEBUG Element not found yet, remaining time: 7.98
+2022-08-30 19:05:35,730 root DEBUG Element not found yet, remaining time: 7.48
+2022-08-30 19:05:36,231 root DEBUG Element not found yet, remaining time: 6.98
+2022-08-30 19:05:36,731 root DEBUG Element not found yet, remaining time: 6.48
+2022-08-30 19:05:37,232 root DEBUG Element not found yet, remaining time: 5.98
+2022-08-30 19:05:37,733 root DEBUG Element not found yet, remaining time: 5.48
+2022-08-30 19:05:38,234 root DEBUG Element not found yet, remaining time: 4.97
+2022-08-30 19:05:38,734 root DEBUG Element not found yet, remaining time: 4.47
+2022-08-30 19:05:39,235 root DEBUG Element not found yet, remaining time: 3.97
+2022-08-30 19:05:39,736 root DEBUG Element not found yet, remaining time: 3.47
+2022-08-30 19:05:40,236 root DEBUG Element not found yet, remaining time: 2.97
+2022-08-30 19:05:40,737 root DEBUG Element not found yet, remaining time: 2.47
+2022-08-30 19:05:41,238 root DEBUG Element not found yet, remaining time: 1.97
+2022-08-30 19:05:41,739 root DEBUG Element not found yet, remaining time: 1.47
+2022-08-30 19:05:42,240 root DEBUG Element not found yet, remaining time: 0.97
+2022-08-30 19:05:42,741 root DEBUG Element not found yet, remaining time: 0.47
+2022-08-30 19:05:43,242 root DEBUG Element not found yet, remaining time: -0.03
+2022-08-30 19:05:43,245 root ERROR ElementNotFound: Element input-text-controller not found using selector data-testid:'input-text-controller'
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 7, in test
+    send_keys(('data-testid', 'input-text-controller'), 'nala@nalarocks.com')
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 1576, in send_keys
+    element = get_browser().find(element)
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py", line 177, in find
+    return common._find(self, element, id, name, link_text, partial_link_text, css,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 130, in _find
+    webelement = _find_webelement(self, selector_type, selector_value, element_name,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 46, in _find_webelement
+    raise ElementNotFound('Element {0} not found using selector {1}:\'{2}\''
+golem.core.exceptions.ElementNotFound: Element input-text-controller not found using selector data-testid:'input-text-controller'
+2022-08-30 19:05:43,246 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:35451/session/853709efadbd4900fbd8252225ed3116/screenshot {}
+2022-08-30 19:05:43,373 urllib3.connectionpool DEBUG http://127.0.0.1:35451 "GET /session/853709efadbd4900fbd8252225ed3116/screenshot HTTP/1.1" 200 166956
+2022-08-30 19:05:43,374 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:05:43,374 root INFO Test Result: CODE ERROR
+2022-08-30 19:05:43,375 root DEBUG test does not have a teardown function
+2022-08-30 19:05:43,375 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:35451/session/853709efadbd4900fbd8252225ed3116 {}
+2022-08-30 19:05:43,425 urllib3.connectionpool DEBUG http://127.0.0.1:35451 "DELETE /session/853709efadbd4900fbd8252225ed3116 HTTP/1.1" 200 14
+2022-08-30 19:05:43,426 selenium.webdriver.remote.remote_connection DEBUG Finished Request

@@ -1,0 +1,20 @@
+20:08:27.675 INFO Test execution started: login.login
+20:08:27.675 INFO Browser: chrome
+20:08:27.675 INFO Test started: test
+20:08:27.675 INFO Navigate to: 'https://staging.nalarocks.com/'
+20:08:49.957 ERROR ElementNotFound: Element //div[@data-testid="input-text-controller]>input[contains(., "Email")] not found using selector xpath:'//div[@data-testid="input-text-controller]>input[contains(., "Email")]'
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 7, in test
+    send_keys('//div[@data-testid="input-text-controller]>input[contains(., "Email")]', 'nala@nalarocks.com')
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 1576, in send_keys
+    element = get_browser().find(element)
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py", line 177, in find
+    return common._find(self, element, id, name, link_text, partial_link_text, css,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 130, in _find
+    webelement = _find_webelement(self, selector_type, selector_value, element_name,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 46, in _find_webelement
+    raise ElementNotFound('Element {0} not found using selector {1}:\'{2}\''
+golem.core.exceptions.ElementNotFound: Element //div[@data-testid="input-text-controller]>input[contains(., "Email")] not found using selector xpath:'//div[@data-testid="input-text-controller]>input[contains(., "Email")]'
+20:08:50.084 INFO Test Result: CODE ERROR

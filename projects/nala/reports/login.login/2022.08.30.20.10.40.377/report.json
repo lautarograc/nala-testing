@@ -1,0 +1,55 @@
+{
+    "tests": [
+        {
+            "test_file": "login.login",
+            "test": "test",
+            "set_name": "",
+            "environment": "",
+            "result": "code error",
+            "description": "Login into the website",
+            "browser": "chrome",
+            "test_data": {},
+            "steps": [
+                {
+                    "message": "Navigate to: 'https://es.wikipedia.org/wiki/Wikipedia:Portada'",
+                    "screenshot": null,
+                    "error": null
+                },
+                {
+                    "message": "Error",
+                    "screenshot": "Error_e6c09.png",
+                    "error": {
+                        "message": "TypeError: send_keys() takes 2 positional arguments but 3 were given",
+                        "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 7, in test\n    send_keys('id', 'searchInput', 'Messi')\nTypeError: send_keys() takes 2 positional arguments but 3 were given"
+                    }
+                }
+            ],
+            "errors": [
+                {
+                    "message": "TypeError: send_keys() takes 2 positional arguments but 3 were given",
+                    "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 7, in test\n    send_keys('id', 'searchInput', 'Messi')\nTypeError: send_keys() takes 2 positional arguments but 3 were given"
+                }
+            ],
+            "elapsed_time": 3.6,
+            "timestamp": "2022.08.30.20.10.40.575"
+        }
+    ],
+    "params": {
+        "browsers": [
+            {
+                "name": "chrome",
+                "capabilities": {}
+            }
+        ],
+        "processes": 1,
+        "environments": [],
+        "tags": [],
+        "remote_url": ""
+    },
+    "total_tests": 1,
+    "totals_by_result": {
+        "code error": 1
+    },
+    "net_elapsed_time": 3.66,
+    "has_finished": true
+}

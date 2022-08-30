@@ -1,0 +1,47 @@
+{
+    "tests": [
+        {
+            "test_file": "login.login",
+            "test": "test",
+            "set_name": "",
+            "environment": "",
+            "result": "success",
+            "description": "Login into the website",
+            "browser": "chrome",
+            "test_data": {},
+            "steps": [
+                {
+                    "message": "Navigate to: 'https://es.wikipedia.org/wiki/Wikipedia:Portada'",
+                    "screenshot": null,
+                    "error": null
+                },
+                {
+                    "message": "Write 'Messi' in element searchInput",
+                    "screenshot": null,
+                    "error": null
+                }
+            ],
+            "errors": [],
+            "elapsed_time": 3.36,
+            "timestamp": "2022.08.30.20.11.12.163"
+        }
+    ],
+    "params": {
+        "browsers": [
+            {
+                "name": "chrome",
+                "capabilities": {}
+            }
+        ],
+        "processes": 1,
+        "environments": [],
+        "tags": [],
+        "remote_url": ""
+    },
+    "total_tests": 1,
+    "totals_by_result": {
+        "success": 1
+    },
+    "net_elapsed_time": 3.42,
+    "has_finished": true
+}

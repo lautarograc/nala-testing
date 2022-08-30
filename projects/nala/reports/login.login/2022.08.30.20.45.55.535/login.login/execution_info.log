@@ -1,0 +1,30 @@
+20:45:55.738 INFO Test execution started: login.login
+20:45:55.738 INFO Browser: chrome
+20:45:55.738 INFO Using data:
+    URL: https://staging.nalarocks.com/sign-in
+    email_value: nala@nalarocks.com
+    password_value: 12341234
+    verify_text: Welcome back!
+20:45:55.738 INFO Test started: test
+20:45:55.738 INFO Navigate to: 'https://staging.nalarocks.com/sign-in'
+20:45:58.053 INFO Write 'nala@nalarocks.com' in element div[data-testid="input-text-controller"]>div[class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"]>input
+20:45:58.117 INFO Write '12341234' in element div[data-testid="password-input-controller"]>input
+20:45:58.148 INFO Waiting for 2 seconds
+20:46:00.179 INFO Click button[class="MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth"]
+20:46:00.245 INFO Waiting for 5 seconds
+20:46:05.307 ERROR ElementNotFound: Element p[class="MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth"] not found using selector css:'p[class="MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth"]'
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 12, in test
+    verify_element_displayed('p[class="MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth"]')
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 2013, in verify_element_displayed
+    element = get_browser().find(element, timeout=0, wait_displayed=False)
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py", line 177, in find
+    return common._find(self, element, id, name, link_text, partial_link_text, css,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 130, in _find
+    webelement = _find_webelement(self, selector_type, selector_value, element_name,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 46, in _find_webelement
+    raise ElementNotFound('Element {0} not found using selector {1}:\'{2}\''
+golem.core.exceptions.ElementNotFound: Element p[class="MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth"] not found using selector css:'p[class="MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth"]'
+20:46:05.444 INFO Test Result: CODE ERROR

@@ -1,0 +1,8 @@
+20:12:54.622 INFO Test execution started: login.login
+20:12:54.622 INFO Browser: chrome
+20:12:54.622 ERROR SyntaxError: '(' was never closed
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 7
+    send_keys(('class', 'MuiInputBase-input MuiOutlinedInput-input', 'Messi')
+             ^
+SyntaxError: '(' was never closed
+

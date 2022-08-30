@@ -1,0 +1,35 @@
+[
+    {
+        "test_file": "login.login",
+        "test": "test",
+        "set_name": "",
+        "environment": "",
+        "result": "code error",
+        "description": "Login into the website",
+        "browser": "chrome",
+        "test_data": {},
+        "steps": [
+            {
+                "message": "Navigate to: 'https://staging.nalarocks.com/'",
+                "screenshot": null,
+                "error": null
+            },
+            {
+                "message": "Error",
+                "screenshot": "Error_bea5e.png",
+                "error": {
+                    "message": "NameError: name 'nala' is not defined",
+                    "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 7, in test\n    send_keys(('id', 'input-text-controller'), nala@nalarocks.com)\nNameError: name 'nala' is not defined"
+                }
+            }
+        ],
+        "errors": [
+            {
+                "message": "NameError: name 'nala' is not defined",
+                "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 7, in test\n    send_keys(('id', 'input-text-controller'), nala@nalarocks.com)\nNameError: name 'nala' is not defined"
+            }
+        ],
+        "elapsed_time": 2.44,
+        "timestamp": "2022.08.30.18.56.55.882"
+    }
+]

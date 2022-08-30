@@ -1,0 +1,6 @@
+20:11:12.163 INFO Test execution started: login.login
+20:11:12.163 INFO Browser: chrome
+20:11:12.163 INFO Test started: test
+20:11:12.164 INFO Navigate to: 'https://es.wikipedia.org/wiki/Wikipedia:Portada'
+20:11:15.498 INFO Write 'Messi' in element searchInput
+20:11:15.527 INFO Test Result: SUCCESS

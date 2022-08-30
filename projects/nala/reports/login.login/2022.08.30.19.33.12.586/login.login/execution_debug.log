@@ -1,0 +1,196 @@
+2022-08-30 19:33:12,804 root INFO Test execution started: login.login
+2022-08-30 19:33:12,804 root INFO Browser: chrome
+2022-08-30 19:33:12,804 root INFO Test started: test
+2022-08-30 19:33:12,805 root INFO Navigate to: 'https://staging.nalarocks.com/'
+2022-08-30 19:33:13,809 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}
+2022-08-30 19:33:13,811 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:53851
+2022-08-30 19:33:14,175 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session HTTP/1.1" 200 754
+2022-08-30 19:33:14,176 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:14,176 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/window/maximize {}
+2022-08-30 19:33:14,201 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/window/maximize HTTP/1.1" 200 50
+2022-08-30 19:33:14,201 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:14,201 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/url {"url": "https://staging.nalarocks.com/"}
+2022-08-30 19:33:18,183 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/url HTTP/1.1" 200 14
+2022-08-30 19:33:18,183 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:18,183 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:18,192 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:18,193 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:18,693 root DEBUG Element not found yet, remaining time: 19.49
+2022-08-30 19:33:18,694 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:18,714 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:18,715 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:19,216 root DEBUG Element not found yet, remaining time: 18.97
+2022-08-30 19:33:19,216 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:19,235 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:19,236 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:19,736 root DEBUG Element not found yet, remaining time: 18.45
+2022-08-30 19:33:19,737 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:19,740 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:19,740 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:20,241 root DEBUG Element not found yet, remaining time: 17.94
+2022-08-30 19:33:20,241 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:20,261 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:20,262 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:20,763 root DEBUG Element not found yet, remaining time: 17.42
+2022-08-30 19:33:20,763 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:20,782 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:20,783 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:21,283 root DEBUG Element not found yet, remaining time: 16.90
+2022-08-30 19:33:21,284 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:21,297 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:21,297 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:21,798 root DEBUG Element not found yet, remaining time: 16.39
+2022-08-30 19:33:21,798 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:21,817 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:21,817 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:22,318 root DEBUG Element not found yet, remaining time: 15.86
+2022-08-30 19:33:22,319 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:22,338 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:22,339 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:22,839 root DEBUG Element not found yet, remaining time: 15.34
+2022-08-30 19:33:22,840 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:22,858 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:22,859 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:23,360 root DEBUG Element not found yet, remaining time: 14.82
+2022-08-30 19:33:23,360 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:23,379 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:23,379 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:23,880 root DEBUG Element not found yet, remaining time: 14.30
+2022-08-30 19:33:23,880 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:23,885 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:23,885 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:24,386 root DEBUG Element not found yet, remaining time: 13.80
+2022-08-30 19:33:24,387 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:24,406 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:24,406 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:24,907 root DEBUG Element not found yet, remaining time: 13.28
+2022-08-30 19:33:24,907 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:24,912 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:24,912 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:25,413 root DEBUG Element not found yet, remaining time: 12.77
+2022-08-30 19:33:25,414 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:25,432 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:25,433 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:25,934 root DEBUG Element not found yet, remaining time: 12.25
+2022-08-30 19:33:25,934 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:25,941 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:25,941 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:26,441 root DEBUG Element not found yet, remaining time: 11.74
+2022-08-30 19:33:26,442 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:26,463 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:26,464 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:26,965 root DEBUG Element not found yet, remaining time: 11.22
+2022-08-30 19:33:26,965 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:26,983 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:26,984 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:27,485 root DEBUG Element not found yet, remaining time: 10.70
+2022-08-30 19:33:27,485 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:27,494 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:27,494 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:27,994 root DEBUG Element not found yet, remaining time: 10.19
+2022-08-30 19:33:27,995 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:28,014 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:28,015 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:28,516 root DEBUG Element not found yet, remaining time: 9.67
+2022-08-30 19:33:28,516 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:28,535 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:28,535 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:29,036 root DEBUG Element not found yet, remaining time: 9.15
+2022-08-30 19:33:29,036 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:29,055 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:29,056 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:29,557 root DEBUG Element not found yet, remaining time: 8.63
+2022-08-30 19:33:29,557 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:29,561 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:29,561 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:30,062 root DEBUG Element not found yet, remaining time: 8.12
+2022-08-30 19:33:30,062 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:30,082 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:30,082 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:30,583 root DEBUG Element not found yet, remaining time: 7.60
+2022-08-30 19:33:30,583 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:30,587 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:30,587 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:31,088 root DEBUG Element not found yet, remaining time: 7.10
+2022-08-30 19:33:31,088 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:31,093 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:31,093 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:31,593 root DEBUG Element not found yet, remaining time: 6.59
+2022-08-30 19:33:31,593 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:31,598 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:31,598 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:32,098 root DEBUG Element not found yet, remaining time: 6.08
+2022-08-30 19:33:32,099 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:32,102 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:32,103 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:32,603 root DEBUG Element not found yet, remaining time: 5.58
+2022-08-30 19:33:32,603 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:32,607 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:32,608 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:33,108 root DEBUG Element not found yet, remaining time: 5.08
+2022-08-30 19:33:33,108 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:33,112 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:33,112 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:33,613 root DEBUG Element not found yet, remaining time: 4.57
+2022-08-30 19:33:33,613 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:33,617 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:33,617 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:34,117 root DEBUG Element not found yet, remaining time: 4.07
+2022-08-30 19:33:34,118 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:34,121 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:34,121 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:34,622 root DEBUG Element not found yet, remaining time: 3.56
+2022-08-30 19:33:34,622 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:34,626 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:34,626 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:35,127 root DEBUG Element not found yet, remaining time: 3.06
+2022-08-30 19:33:35,127 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:35,131 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:35,131 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:35,631 root DEBUG Element not found yet, remaining time: 2.55
+2022-08-30 19:33:35,631 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:35,636 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:35,636 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:36,136 root DEBUG Element not found yet, remaining time: 2.05
+2022-08-30 19:33:36,137 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:36,140 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:36,140 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:36,641 root DEBUG Element not found yet, remaining time: 1.54
+2022-08-30 19:33:36,641 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:36,645 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:36,646 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:37,146 root DEBUG Element not found yet, remaining time: 1.04
+2022-08-30 19:33:37,147 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:37,166 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:37,167 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:37,668 root DEBUG Element not found yet, remaining time: 0.52
+2022-08-30 19:33:37,668 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:37,687 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:37,687 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:38,188 root DEBUG Element not found yet, remaining time: -0.01
+2022-08-30 19:33:38,189 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/element {"using": "css selector", "value": "data-testid=\"input-text-controller\""}
+2022-08-30 19:33:38,208 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "POST /session/e01f67fe5cc6e0ca4fedacefda830e09/element HTTP/1.1" 400 930
+2022-08-30 19:33:38,209 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:38,212 root ERROR ElementNotFound: Element data-testid="input-text-controller" not found using selector css:'data-testid="input-text-controller"'
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 6, in test
+    send_keys(('data-testid="input-text-controller"'), 'nala@nalarocks.com')
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 1576, in send_keys
+    element = get_browser().find(element)
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py", line 177, in find
+    return common._find(self, element, id, name, link_text, partial_link_text, css,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 130, in _find
+    webelement = _find_webelement(self, selector_type, selector_value, element_name,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 46, in _find_webelement
+    raise ElementNotFound('Element {0} not found using selector {1}:\'{2}\''
+golem.core.exceptions.ElementNotFound: Element data-testid="input-text-controller" not found using selector css:'data-testid="input-text-controller"'
+2022-08-30 19:33:38,213 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09/screenshot {}
+2022-08-30 19:33:38,360 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "GET /session/e01f67fe5cc6e0ca4fedacefda830e09/screenshot HTTP/1.1" 200 166956
+2022-08-30 19:33:38,360 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 19:33:38,361 root INFO Test Result: CODE ERROR
+2022-08-30 19:33:38,361 root DEBUG test does not have a teardown function
+2022-08-30 19:33:38,361 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:53851/session/e01f67fe5cc6e0ca4fedacefda830e09 {}
+2022-08-30 19:33:38,412 urllib3.connectionpool DEBUG http://127.0.0.1:53851 "DELETE /session/e01f67fe5cc6e0ca4fedacefda830e09 HTTP/1.1" 200 14
+2022-08-30 19:33:38,412 selenium.webdriver.remote.remote_connection DEBUG Finished Request

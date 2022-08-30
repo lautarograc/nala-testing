@@ -1,0 +1,8 @@
+2022-08-30 20:36:02,813 root INFO Test execution started: login.login
+2022-08-30 20:36:02,813 root INFO Browser: chrome
+2022-08-30 20:36:02,813 root ERROR SyntaxError: invalid syntax. Perhaps you forgot a comma?
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 13
+    verify_element_text('MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth', Welcome back!)
+                                                                                                                                                ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

@@ -1,0 +1,35 @@
+[
+    {
+        "test_file": "login.login",
+        "test": "test",
+        "set_name": "",
+        "environment": "",
+        "result": "code error",
+        "description": "Login into the website",
+        "browser": "chrome",
+        "test_data": {},
+        "steps": [
+            {
+                "message": "Navigate to: 'https://staging.nalarocks.com/'",
+                "screenshot": null,
+                "error": null
+            },
+            {
+                "message": "Error",
+                "screenshot": "Error_98be5.png",
+                "error": {
+                    "message": "ElementNotFound: Element input-text-controller not found using selector data-testid:'input-text-controller'",
+                    "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 7, in test\n    send_keys(('data-testid', 'input-text-controller'), 'nala@nalarocks.com')\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py\", line 1576, in send_keys\n    element = get_browser().find(element)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py\", line 177, in find\n    return common._find(self, element, id, name, link_text, partial_link_text, css,\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py\", line 130, in _find\n    webelement = _find_webelement(self, selector_type, selector_value, element_name,\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py\", line 46, in _find_webelement\n    raise ElementNotFound('Element {0} not found using selector {1}:\\'{2}\\''\ngolem.core.exceptions.ElementNotFound: Element input-text-controller not found using selector data-testid:'input-text-controller'"
+                }
+            }
+        ],
+        "errors": [
+            {
+                "message": "ElementNotFound: Element input-text-controller not found using selector data-testid:'input-text-controller'",
+                "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 7, in test\n    send_keys(('data-testid', 'input-text-controller'), 'nala@nalarocks.com')\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py\", line 1576, in send_keys\n    element = get_browser().find(element)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py\", line 177, in find\n    return common._find(self, element, id, name, link_text, partial_link_text, css,\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py\", line 130, in _find\n    webelement = _find_webelement(self, selector_type, selector_value, element_name,\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py\", line 46, in _find_webelement\n    raise ElementNotFound('Element {0} not found using selector {1}:\\'{2}\\''\ngolem.core.exceptions.ElementNotFound: Element input-text-controller not found using selector data-testid:'input-text-controller'"
+            }
+        ],
+        "elapsed_time": 22.25,
+        "timestamp": "2022.08.30.19.05.21.127"
+    }
+]

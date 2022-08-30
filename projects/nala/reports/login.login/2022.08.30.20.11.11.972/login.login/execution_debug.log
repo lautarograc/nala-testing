@@ -1,0 +1,27 @@
+2022-08-30 20:11:12,163 root INFO Test execution started: login.login
+2022-08-30 20:11:12,163 root INFO Browser: chrome
+2022-08-30 20:11:12,163 root INFO Test started: test
+2022-08-30 20:11:12,164 root INFO Navigate to: 'https://es.wikipedia.org/wiki/Wikipedia:Portada'
+2022-08-30 20:11:13,168 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:42463/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}
+2022-08-30 20:11:13,169 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:42463
+2022-08-30 20:11:13,521 urllib3.connectionpool DEBUG http://127.0.0.1:42463 "POST /session HTTP/1.1" 200 754
+2022-08-30 20:11:13,521 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:11:13,521 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:42463/session/e608ded7e539dbdff3b1b7edad08019b/window/maximize {}
+2022-08-30 20:11:13,557 urllib3.connectionpool DEBUG http://127.0.0.1:42463 "POST /session/e608ded7e539dbdff3b1b7edad08019b/window/maximize HTTP/1.1" 200 50
+2022-08-30 20:11:13,557 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:11:13,557 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:42463/session/e608ded7e539dbdff3b1b7edad08019b/url {"url": "https://es.wikipedia.org/wiki/Wikipedia:Portada"}
+2022-08-30 20:11:15,492 urllib3.connectionpool DEBUG http://127.0.0.1:42463 "POST /session/e608ded7e539dbdff3b1b7edad08019b/url HTTP/1.1" 200 14
+2022-08-30 20:11:15,492 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:11:15,492 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:42463/session/e608ded7e539dbdff3b1b7edad08019b/element {"using": "css selector", "value": "[id=\"searchInput\"]"}
+2022-08-30 20:11:15,497 urllib3.connectionpool DEBUG http://127.0.0.1:42463 "POST /session/e608ded7e539dbdff3b1b7edad08019b/element HTTP/1.1" 200 88
+2022-08-30 20:11:15,498 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:11:15,498 root DEBUG Element found
+2022-08-30 20:11:15,498 root INFO Write 'Messi' in element searchInput
+2022-08-30 20:11:15,498 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:42463/session/e608ded7e539dbdff3b1b7edad08019b/element/df0a6980-caf9-4559-92e2-5fbfb74e27d8/value {"text": "Messi", "value": ["M", "e", "s", "s", "i"], "id": "df0a6980-caf9-4559-92e2-5fbfb74e27d8"}
+2022-08-30 20:11:15,526 urllib3.connectionpool DEBUG http://127.0.0.1:42463 "POST /session/e608ded7e539dbdff3b1b7edad08019b/element/df0a6980-caf9-4559-92e2-5fbfb74e27d8/value HTTP/1.1" 200 14
+2022-08-30 20:11:15,527 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:11:15,527 root INFO Test Result: SUCCESS
+2022-08-30 20:11:15,527 root DEBUG test does not have a teardown function
+2022-08-30 20:11:15,527 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:42463/session/e608ded7e539dbdff3b1b7edad08019b {}
+2022-08-30 20:11:15,578 urllib3.connectionpool DEBUG http://127.0.0.1:42463 "DELETE /session/e608ded7e539dbdff3b1b7edad08019b HTTP/1.1" 200 14
+2022-08-30 20:11:15,578 selenium.webdriver.remote.remote_connection DEBUG Finished Request

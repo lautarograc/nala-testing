@@ -1,0 +1,192 @@
+2022-08-30 20:15:44,925 root INFO Test execution started: login.login
+2022-08-30 20:15:44,925 root INFO Browser: chrome
+2022-08-30 20:15:44,925 root INFO Test started: test
+2022-08-30 20:15:44,926 root INFO Navigate to: 'https://staging.nalarocks.com/sign-in'
+2022-08-30 20:15:45,929 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}
+2022-08-30 20:15:45,931 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:52083
+2022-08-30 20:15:46,304 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session HTTP/1.1" 200 754
+2022-08-30 20:15:46,305 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:46,305 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/window/maximize {}
+2022-08-30 20:15:46,322 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/window/maximize HTTP/1.1" 200 50
+2022-08-30 20:15:46,322 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:46,322 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/url {"url": "https://staging.nalarocks.com/sign-in"}
+2022-08-30 20:15:47,111 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/url HTTP/1.1" 200 14
+2022-08-30 20:15:47,111 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:47,111 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:47,117 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:47,117 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:47,618 root DEBUG Element not found yet, remaining time: 19.49
+2022-08-30 20:15:47,618 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:47,637 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:47,638 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:48,139 root DEBUG Element not found yet, remaining time: 18.97
+2022-08-30 20:15:48,139 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:48,158 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:48,159 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:48,660 root DEBUG Element not found yet, remaining time: 18.45
+2022-08-30 20:15:48,660 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:48,670 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:48,671 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:49,171 root DEBUG Element not found yet, remaining time: 17.94
+2022-08-30 20:15:49,171 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:49,175 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:49,175 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:49,675 root DEBUG Element not found yet, remaining time: 17.44
+2022-08-30 20:15:49,676 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:49,695 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:49,695 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:50,196 root DEBUG Element not found yet, remaining time: 16.91
+2022-08-30 20:15:50,197 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:50,207 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:50,207 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:50,708 root DEBUG Element not found yet, remaining time: 16.40
+2022-08-30 20:15:50,708 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:50,713 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:50,713 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:51,213 root DEBUG Element not found yet, remaining time: 15.90
+2022-08-30 20:15:51,214 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:51,233 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:51,233 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:51,734 root DEBUG Element not found yet, remaining time: 15.38
+2022-08-30 20:15:51,735 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:51,753 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:51,754 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:52,255 root DEBUG Element not found yet, remaining time: 14.86
+2022-08-30 20:15:52,255 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:52,273 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:52,274 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:52,775 root DEBUG Element not found yet, remaining time: 14.34
+2022-08-30 20:15:52,775 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:52,794 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:52,794 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:53,295 root DEBUG Element not found yet, remaining time: 13.82
+2022-08-30 20:15:53,296 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:53,315 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:53,315 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:53,816 root DEBUG Element not found yet, remaining time: 13.30
+2022-08-30 20:15:53,816 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:53,835 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:53,836 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:54,336 root DEBUG Element not found yet, remaining time: 12.77
+2022-08-30 20:15:54,336 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:54,340 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:54,340 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:54,841 root DEBUG Element not found yet, remaining time: 12.27
+2022-08-30 20:15:54,841 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:54,860 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:54,860 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:55,361 root DEBUG Element not found yet, remaining time: 11.75
+2022-08-30 20:15:55,361 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:55,375 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:55,375 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:55,876 root DEBUG Element not found yet, remaining time: 11.24
+2022-08-30 20:15:55,876 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:56,220 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:56,220 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:56,721 root DEBUG Element not found yet, remaining time: 10.39
+2022-08-30 20:15:56,721 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:56,732 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:56,733 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:57,233 root DEBUG Element not found yet, remaining time: 9.88
+2022-08-30 20:15:57,234 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:57,264 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:57,265 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:57,766 root DEBUG Element not found yet, remaining time: 9.35
+2022-08-30 20:15:57,766 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:57,805 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:57,806 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:58,306 root DEBUG Element not found yet, remaining time: 8.80
+2022-08-30 20:15:58,307 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:58,335 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:58,335 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:58,836 root DEBUG Element not found yet, remaining time: 8.28
+2022-08-30 20:15:58,836 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:58,865 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:58,866 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:59,367 root DEBUG Element not found yet, remaining time: 7.74
+2022-08-30 20:15:59,367 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:59,389 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:59,389 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:15:59,890 root DEBUG Element not found yet, remaining time: 7.22
+2022-08-30 20:15:59,890 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:15:59,896 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:15:59,896 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:00,397 root DEBUG Element not found yet, remaining time: 6.71
+2022-08-30 20:16:00,397 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:00,404 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:00,404 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:00,904 root DEBUG Element not found yet, remaining time: 6.21
+2022-08-30 20:16:00,904 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:00,911 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:00,911 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:01,411 root DEBUG Element not found yet, remaining time: 5.70
+2022-08-30 20:16:01,412 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:01,418 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:01,418 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:01,919 root DEBUG Element not found yet, remaining time: 5.19
+2022-08-30 20:16:01,919 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:01,926 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:01,926 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:02,427 root DEBUG Element not found yet, remaining time: 4.68
+2022-08-30 20:16:02,427 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:02,434 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:02,434 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:02,935 root DEBUG Element not found yet, remaining time: 4.18
+2022-08-30 20:16:02,935 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:02,941 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:02,941 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:03,442 root DEBUG Element not found yet, remaining time: 3.67
+2022-08-30 20:16:03,443 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:03,474 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:03,475 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:03,976 root DEBUG Element not found yet, remaining time: 3.14
+2022-08-30 20:16:03,976 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:04,001 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:04,001 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:04,502 root DEBUG Element not found yet, remaining time: 2.61
+2022-08-30 20:16:04,502 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:04,509 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:04,509 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:05,009 root DEBUG Element not found yet, remaining time: 2.10
+2022-08-30 20:16:05,010 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:05,042 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:05,042 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:05,543 root DEBUG Element not found yet, remaining time: 1.57
+2022-08-30 20:16:05,543 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:05,551 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:05,551 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:06,052 root DEBUG Element not found yet, remaining time: 1.06
+2022-08-30 20:16:06,052 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:06,072 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:06,072 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:06,573 root DEBUG Element not found yet, remaining time: 0.54
+2022-08-30 20:16:06,573 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:06,594 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:06,595 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:07,095 root DEBUG Element not found yet, remaining time: 0.02
+2022-08-30 20:16:07,096 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/element {"using": "css selector", "value": "[id=\"MuiInputBase-input MuiOutlinedInput-input\"]"}
+2022-08-30 20:16:07,123 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "POST /session/50c3426dcd501671c48c681503ff0e1a/element HTTP/1.1" 404 902
+2022-08-30 20:16:07,123 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:07,124 root ERROR ElementNotFound: Element MuiInputBase-input MuiOutlinedInput-input not found using selector id:'MuiInputBase-input MuiOutlinedInput-input'
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 7, in test
+    send_keys(('id', 'MuiInputBase-input MuiOutlinedInput-input'), 'Messi')
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 1576, in send_keys
+    element = get_browser().find(element)
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py", line 177, in find
+    return common._find(self, element, id, name, link_text, partial_link_text, css,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 130, in _find
+    webelement = _find_webelement(self, selector_type, selector_value, element_name,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 46, in _find_webelement
+    raise ElementNotFound('Element {0} not found using selector {1}:\'{2}\''
+golem.core.exceptions.ElementNotFound: Element MuiInputBase-input MuiOutlinedInput-input not found using selector id:'MuiInputBase-input MuiOutlinedInput-input'
+2022-08-30 20:16:07,125 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a/screenshot {}
+2022-08-30 20:16:07,225 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "GET /session/50c3426dcd501671c48c681503ff0e1a/screenshot HTTP/1.1" 200 138912
+2022-08-30 20:16:07,225 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:16:07,226 root INFO Test Result: CODE ERROR
+2022-08-30 20:16:07,226 root DEBUG test does not have a teardown function
+2022-08-30 20:16:07,226 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:52083/session/50c3426dcd501671c48c681503ff0e1a {}
+2022-08-30 20:16:07,277 urllib3.connectionpool DEBUG http://127.0.0.1:52083 "DELETE /session/50c3426dcd501671c48c681503ff0e1a HTTP/1.1" 200 14
+2022-08-30 20:16:07,277 selenium.webdriver.remote.remote_connection DEBUG Finished Request

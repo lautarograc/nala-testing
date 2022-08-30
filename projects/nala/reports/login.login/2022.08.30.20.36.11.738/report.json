@@ -1,0 +1,70 @@
+{
+    "tests": [
+        {
+            "test_file": "login.login",
+            "test": "test",
+            "set_name": "",
+            "environment": "",
+            "result": "code error",
+            "description": "Login into the website",
+            "browser": "chrome",
+            "test_data": {},
+            "steps": [
+                {
+                    "message": "Navigate to: 'https://staging.nalarocks.com/sign-in'",
+                    "screenshot": null,
+                    "error": null
+                },
+                {
+                    "message": "Write 'nala@nalarocks.com' in element div[data-testid=\"input-text-controller\"]>div[class=\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl\"]>input",
+                    "screenshot": null,
+                    "error": null
+                },
+                {
+                    "message": "Write '12341234' in element div[data-testid=\"password-input-controller\"]>input",
+                    "screenshot": null,
+                    "error": null
+                },
+                {
+                    "message": "Click button[class=\"MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth\"]",
+                    "screenshot": null,
+                    "error": null
+                },
+                {
+                    "message": "Error",
+                    "screenshot": "Error_79fe6.png",
+                    "error": {
+                        "message": "ElementNotFound: Element MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth not found using selector css:'MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth'",
+                        "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 12, in test\n    verify_element_displayed('MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth')\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py\", line 2013, in verify_element_displayed\n    element = get_browser().find(element, timeout=0, wait_displayed=False)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py\", line 177, in find\n    return common._find(self, element, id, name, link_text, partial_link_text, css,\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py\", line 130, in _find\n    webelement = _find_webelement(self, selector_type, selector_value, element_name,\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py\", line 46, in _find_webelement\n    raise ElementNotFound('Element {0} not found using selector {1}:\\'{2}\\''\ngolem.core.exceptions.ElementNotFound: Element MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth not found using selector css:'MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth'"
+                    }
+                }
+            ],
+            "errors": [
+                {
+                    "message": "ElementNotFound: Element MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth not found using selector css:'MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth'",
+                    "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 12, in test\n    verify_element_displayed('MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth')\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py\", line 2013, in verify_element_displayed\n    element = get_browser().find(element, timeout=0, wait_displayed=False)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py\", line 177, in find\n    return common._find(self, element, id, name, link_text, partial_link_text, css,\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py\", line 130, in _find\n    webelement = _find_webelement(self, selector_type, selector_value, element_name,\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py\", line 46, in _find_webelement\n    raise ElementNotFound('Element {0} not found using selector {1}:\\'{2}\\''\ngolem.core.exceptions.ElementNotFound: Element MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth not found using selector css:'MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth'"
+                }
+            ],
+            "elapsed_time": 9.98,
+            "timestamp": "2022.08.30.20.36.11.934"
+        }
+    ],
+    "params": {
+        "browsers": [
+            {
+                "name": "chrome",
+                "capabilities": {}
+            }
+        ],
+        "processes": 1,
+        "environments": [],
+        "tags": [],
+        "remote_url": ""
+    },
+    "total_tests": 1,
+    "totals_by_result": {
+        "code error": 1
+    },
+    "net_elapsed_time": 10.03,
+    "has_finished": true
+}

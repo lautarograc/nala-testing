@@ -1,0 +1,66 @@
+2022-08-30 20:36:11,934 root INFO Test execution started: login.login
+2022-08-30 20:36:11,934 root INFO Browser: chrome
+2022-08-30 20:36:11,935 root INFO Test started: test
+2022-08-30 20:36:11,935 root INFO Navigate to: 'https://staging.nalarocks.com/sign-in'
+2022-08-30 20:36:12,939 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35753/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}
+2022-08-30 20:36:12,941 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:35753
+2022-08-30 20:36:13,293 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "POST /session HTTP/1.1" 200 754
+2022-08-30 20:36:13,293 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:36:13,294 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35753/session/164b5af59f23426f97fefa0570963201/window/maximize {}
+2022-08-30 20:36:13,331 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "POST /session/164b5af59f23426f97fefa0570963201/window/maximize HTTP/1.1" 200 50
+2022-08-30 20:36:13,332 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:36:13,332 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35753/session/164b5af59f23426f97fefa0570963201/url {"url": "https://staging.nalarocks.com/sign-in"}
+2022-08-30 20:36:14,559 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "POST /session/164b5af59f23426f97fefa0570963201/url HTTP/1.1" 200 14
+2022-08-30 20:36:14,559 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:36:14,559 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35753/session/164b5af59f23426f97fefa0570963201/element {"using": "css selector", "value": "div[data-testid=\"input-text-controller\"]>div[class=\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl\"]>input"}
+2022-08-30 20:36:14,573 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "POST /session/164b5af59f23426f97fefa0570963201/element HTTP/1.1" 200 88
+2022-08-30 20:36:14,573 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:36:14,573 root DEBUG Element found
+2022-08-30 20:36:14,573 root INFO Write 'nala@nalarocks.com' in element div[data-testid="input-text-controller"]>div[class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"]>input
+2022-08-30 20:36:14,574 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35753/session/164b5af59f23426f97fefa0570963201/element/2ee50fc6-a129-4262-bb77-fd6c88a83dd7/value {"text": "nala@nalarocks.com", "value": ["n", "a", "l", "a", "@", "n", "a", "l", "a", "r", "o", "c", "k", "s", ".", "c", "o", "m"], "id": "2ee50fc6-a129-4262-bb77-fd6c88a83dd7"}
+2022-08-30 20:36:14,620 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "POST /session/164b5af59f23426f97fefa0570963201/element/2ee50fc6-a129-4262-bb77-fd6c88a83dd7/value HTTP/1.1" 200 14
+2022-08-30 20:36:14,620 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:36:14,620 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35753/session/164b5af59f23426f97fefa0570963201/element {"using": "css selector", "value": "div[data-testid=\"password-input-controller\"]>input"}
+2022-08-30 20:36:14,625 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "POST /session/164b5af59f23426f97fefa0570963201/element HTTP/1.1" 200 88
+2022-08-30 20:36:14,625 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:36:14,625 root DEBUG Element found
+2022-08-30 20:36:14,625 root INFO Write '12341234' in element div[data-testid="password-input-controller"]>input
+2022-08-30 20:36:14,625 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35753/session/164b5af59f23426f97fefa0570963201/element/4ca75358-39cf-4c84-9af1-bb29f80e1dbe/value {"text": "12341234", "value": ["1", "2", "3", "4", "1", "2", "3", "4"], "id": "4ca75358-39cf-4c84-9af1-bb29f80e1dbe"}
+2022-08-30 20:36:14,654 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "POST /session/164b5af59f23426f97fefa0570963201/element/4ca75358-39cf-4c84-9af1-bb29f80e1dbe/value HTTP/1.1" 200 14
+2022-08-30 20:36:14,654 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:36:14,654 root INFO Waiting for 2 seconds
+2022-08-30 20:36:16,656 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35753/session/164b5af59f23426f97fefa0570963201/element {"using": "css selector", "value": "button[class=\"MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth\"]"}
+2022-08-30 20:36:16,683 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "POST /session/164b5af59f23426f97fefa0570963201/element HTTP/1.1" 200 88
+2022-08-30 20:36:16,684 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:36:16,684 root DEBUG Element found
+2022-08-30 20:36:16,684 root INFO Click button[class="MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth"]
+2022-08-30 20:36:16,684 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35753/session/164b5af59f23426f97fefa0570963201/element/c107fe10-050d-4fd4-9526-fdcb5cffe237/click {"id": "c107fe10-050d-4fd4-9526-fdcb5cffe237"}
+2022-08-30 20:36:16,744 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "POST /session/164b5af59f23426f97fefa0570963201/element/c107fe10-050d-4fd4-9526-fdcb5cffe237/click HTTP/1.1" 200 14
+2022-08-30 20:36:16,744 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:36:16,744 root INFO Waiting for 5 seconds
+2022-08-30 20:36:21,747 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:35753/session/164b5af59f23426f97fefa0570963201/element {"using": "css selector", "value": "MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth"}
+2022-08-30 20:36:21,774 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "POST /session/164b5af59f23426f97fefa0570963201/element HTTP/1.1" 404 968
+2022-08-30 20:36:21,774 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:36:21,776 root ERROR ElementNotFound: Element MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth not found using selector css:'MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth'
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 12, in test
+    verify_element_displayed('MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth')
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 2013, in verify_element_displayed
+    element = get_browser().find(element, timeout=0, wait_displayed=False)
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py", line 177, in find
+    return common._find(self, element, id, name, link_text, partial_link_text, css,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 130, in _find
+    webelement = _find_webelement(self, selector_type, selector_value, element_name,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 46, in _find_webelement
+    raise ElementNotFound('Element {0} not found using selector {1}:\'{2}\''
+golem.core.exceptions.ElementNotFound: Element MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth not found using selector css:'MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth'
+2022-08-30 20:36:21,777 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:35753/session/164b5af59f23426f97fefa0570963201/screenshot {}
+2022-08-30 20:36:21,910 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "GET /session/164b5af59f23426f97fefa0570963201/screenshot HTTP/1.1" 200 70852
+2022-08-30 20:36:21,910 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:36:21,910 root INFO Test Result: CODE ERROR
+2022-08-30 20:36:21,911 root DEBUG test does not have a teardown function
+2022-08-30 20:36:21,911 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:35753/session/164b5af59f23426f97fefa0570963201 {}
+2022-08-30 20:36:21,962 urllib3.connectionpool DEBUG http://127.0.0.1:35753 "DELETE /session/164b5af59f23426f97fefa0570963201 HTTP/1.1" 200 14
+2022-08-30 20:36:21,962 selenium.webdriver.remote.remote_connection DEBUG Finished Request

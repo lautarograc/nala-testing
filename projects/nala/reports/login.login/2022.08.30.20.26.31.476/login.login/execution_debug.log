@@ -1,0 +1,28 @@
+2022-08-30 20:26:31,674 root INFO Test execution started: login.login
+2022-08-30 20:26:31,674 root INFO Browser: chrome
+2022-08-30 20:26:31,675 root INFO Test started: test
+2022-08-30 20:26:31,675 root INFO Navigate to: 'https://staging.nalarocks.com/sign-in'
+2022-08-30 20:26:32,679 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:41667/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}
+2022-08-30 20:26:32,681 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:41667
+2022-08-30 20:26:33,025 urllib3.connectionpool DEBUG http://127.0.0.1:41667 "POST /session HTTP/1.1" 200 754
+2022-08-30 20:26:33,025 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:26:33,025 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:41667/session/a89a1491545ee6b1192e8f11ea9c434e/window/maximize {}
+2022-08-30 20:26:33,046 urllib3.connectionpool DEBUG http://127.0.0.1:41667 "POST /session/a89a1491545ee6b1192e8f11ea9c434e/window/maximize HTTP/1.1" 200 50
+2022-08-30 20:26:33,046 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:26:33,046 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:41667/session/a89a1491545ee6b1192e8f11ea9c434e/url {"url": "https://staging.nalarocks.com/sign-in"}
+2022-08-30 20:26:33,764 urllib3.connectionpool DEBUG http://127.0.0.1:41667 "POST /session/a89a1491545ee6b1192e8f11ea9c434e/url HTTP/1.1" 200 14
+2022-08-30 20:26:33,765 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:26:33,765 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:41667/session/a89a1491545ee6b1192e8f11ea9c434e/element {"using": "css selector", "value": "div[data-testid=\"input-text-controller\"]>div[class=\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl\"]>input"}
+2022-08-30 20:26:33,770 urllib3.connectionpool DEBUG http://127.0.0.1:41667 "POST /session/a89a1491545ee6b1192e8f11ea9c434e/element HTTP/1.1" 200 88
+2022-08-30 20:26:33,770 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:26:33,770 root DEBUG Element found
+2022-08-30 20:26:33,770 root INFO Write 'Messi' in element div[data-testid="input-text-controller"]>div[class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"]>input
+2022-08-30 20:26:33,770 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:41667/session/a89a1491545ee6b1192e8f11ea9c434e/element/3cf8696c-c24e-4b71-a82e-70e61a7744b6/value {"text": "Messi", "value": ["M", "e", "s", "s", "i"], "id": "3cf8696c-c24e-4b71-a82e-70e61a7744b6"}
+2022-08-30 20:26:33,806 urllib3.connectionpool DEBUG http://127.0.0.1:41667 "POST /session/a89a1491545ee6b1192e8f11ea9c434e/element/3cf8696c-c24e-4b71-a82e-70e61a7744b6/value HTTP/1.1" 200 14
+2022-08-30 20:26:33,806 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:26:33,806 root INFO Waiting for 10 seconds
+2022-08-30 20:26:43,816 root INFO Test Result: SUCCESS
+2022-08-30 20:26:43,818 root DEBUG test does not have a teardown function
+2022-08-30 20:26:43,818 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:41667/session/a89a1491545ee6b1192e8f11ea9c434e {}
+2022-08-30 20:26:43,819 urllib3.connectionpool DEBUG http://127.0.0.1:41667 "DELETE /session/a89a1491545ee6b1192e8f11ea9c434e HTTP/1.1" 200 14
+2022-08-30 20:26:43,820 selenium.webdriver.remote.remote_connection DEBUG Finished Request

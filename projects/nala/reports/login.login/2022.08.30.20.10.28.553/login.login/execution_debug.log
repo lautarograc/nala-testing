@@ -1,0 +1,29 @@
+2022-08-30 20:10:28,742 root INFO Test execution started: login.login
+2022-08-30 20:10:28,742 root INFO Browser: chrome
+2022-08-30 20:10:28,743 root INFO Test started: test
+2022-08-30 20:10:28,743 root INFO Navigate to: 'https://es.wikipedia.org/wiki/Wikipedia:Portada'
+2022-08-30 20:10:29,747 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:45793/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}
+2022-08-30 20:10:29,748 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:45793
+2022-08-30 20:10:30,120 urllib3.connectionpool DEBUG http://127.0.0.1:45793 "POST /session HTTP/1.1" 200 754
+2022-08-30 20:10:30,121 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:10:30,121 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:45793/session/f6872d5eeb0c4bc67f221e9a7ad61ed3/window/maximize {}
+2022-08-30 20:10:30,129 urllib3.connectionpool DEBUG http://127.0.0.1:45793 "POST /session/f6872d5eeb0c4bc67f221e9a7ad61ed3/window/maximize HTTP/1.1" 200 50
+2022-08-30 20:10:30,130 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:10:30,130 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:45793/session/f6872d5eeb0c4bc67f221e9a7ad61ed3/url {"url": "https://es.wikipedia.org/wiki/Wikipedia:Portada"}
+2022-08-30 20:10:32,053 urllib3.connectionpool DEBUG http://127.0.0.1:45793 "POST /session/f6872d5eeb0c4bc67f221e9a7ad61ed3/url HTTP/1.1" 200 14
+2022-08-30 20:10:32,053 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:10:32,054 root ERROR NameError: name 'Messi' is not defined
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 7, in test
+    send_keys('id', 'searchInput', Messi)
+NameError: name 'Messi' is not defined
+2022-08-30 20:10:32,054 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:45793/session/f6872d5eeb0c4bc67f221e9a7ad61ed3/screenshot {}
+2022-08-30 20:10:32,217 urllib3.connectionpool DEBUG http://127.0.0.1:45793 "GET /session/f6872d5eeb0c4bc67f221e9a7ad61ed3/screenshot HTTP/1.1" 200 756316
+2022-08-30 20:10:32,218 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:10:32,219 root INFO Test Result: CODE ERROR
+2022-08-30 20:10:32,220 root DEBUG test does not have a teardown function
+2022-08-30 20:10:32,220 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:45793/session/f6872d5eeb0c4bc67f221e9a7ad61ed3 {}
+2022-08-30 20:10:32,271 urllib3.connectionpool DEBUG http://127.0.0.1:45793 "DELETE /session/f6872d5eeb0c4bc67f221e9a7ad61ed3 HTTP/1.1" 200 14
+2022-08-30 20:10:32,272 selenium.webdriver.remote.remote_connection DEBUG Finished Request

@@ -1,0 +1,196 @@
+2022-08-30 20:08:27,675 root INFO Test execution started: login.login
+2022-08-30 20:08:27,675 root INFO Browser: chrome
+2022-08-30 20:08:27,675 root INFO Test started: test
+2022-08-30 20:08:27,675 root INFO Navigate to: 'https://staging.nalarocks.com/'
+2022-08-30 20:08:28,680 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}
+2022-08-30 20:08:28,681 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:39085
+2022-08-30 20:08:29,053 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session HTTP/1.1" 200 754
+2022-08-30 20:08:29,054 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:29,054 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/window/maximize {}
+2022-08-30 20:08:29,078 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/window/maximize HTTP/1.1" 200 50
+2022-08-30 20:08:29,078 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:29,078 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/url {"url": "https://staging.nalarocks.com/"}
+2022-08-30 20:08:29,771 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/url HTTP/1.1" 200 14
+2022-08-30 20:08:29,771 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:29,771 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:29,782 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:29,782 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:30,282 root DEBUG Element not found yet, remaining time: 19.49
+2022-08-30 20:08:30,283 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:30,303 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:30,303 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:30,804 root DEBUG Element not found yet, remaining time: 18.97
+2022-08-30 20:08:30,805 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:30,823 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:30,823 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:31,324 root DEBUG Element not found yet, remaining time: 18.45
+2022-08-30 20:08:31,324 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:31,344 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:31,345 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:31,846 root DEBUG Element not found yet, remaining time: 17.93
+2022-08-30 20:08:31,846 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:31,865 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:31,866 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:32,367 root DEBUG Element not found yet, remaining time: 17.40
+2022-08-30 20:08:32,367 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:32,387 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:32,388 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:32,890 root DEBUG Element not found yet, remaining time: 16.88
+2022-08-30 20:08:32,890 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:32,910 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:32,911 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:33,412 root DEBUG Element not found yet, remaining time: 16.36
+2022-08-30 20:08:33,412 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:33,416 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:33,416 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:33,917 root DEBUG Element not found yet, remaining time: 15.85
+2022-08-30 20:08:33,917 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:33,937 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:33,938 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:34,439 root DEBUG Element not found yet, remaining time: 15.33
+2022-08-30 20:08:34,439 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:34,459 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:34,460 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:34,961 root DEBUG Element not found yet, remaining time: 14.81
+2022-08-30 20:08:34,961 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:34,980 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:34,981 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:35,482 root DEBUG Element not found yet, remaining time: 14.29
+2022-08-30 20:08:35,482 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:35,503 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:35,503 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:36,004 root DEBUG Element not found yet, remaining time: 13.77
+2022-08-30 20:08:36,005 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:36,024 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:36,025 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:36,526 root DEBUG Element not found yet, remaining time: 13.25
+2022-08-30 20:08:36,526 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:36,546 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:36,546 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:37,047 root DEBUG Element not found yet, remaining time: 12.72
+2022-08-30 20:08:37,047 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:37,066 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:37,067 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:37,568 root DEBUG Element not found yet, remaining time: 12.20
+2022-08-30 20:08:37,568 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:37,587 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:37,588 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:38,089 root DEBUG Element not found yet, remaining time: 11.68
+2022-08-30 20:08:38,089 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:38,108 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:38,109 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:38,609 root DEBUG Element not found yet, remaining time: 11.16
+2022-08-30 20:08:38,610 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:38,629 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:38,629 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:39,130 root DEBUG Element not found yet, remaining time: 10.64
+2022-08-30 20:08:39,131 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:39,150 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:39,151 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:39,652 root DEBUG Element not found yet, remaining time: 10.12
+2022-08-30 20:08:39,652 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:39,672 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:39,673 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:40,174 root DEBUG Element not found yet, remaining time: 9.60
+2022-08-30 20:08:40,174 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:40,186 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:40,186 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:40,687 root DEBUG Element not found yet, remaining time: 9.08
+2022-08-30 20:08:40,688 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:40,706 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:40,707 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:41,208 root DEBUG Element not found yet, remaining time: 8.56
+2022-08-30 20:08:41,208 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:41,227 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:41,228 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:41,729 root DEBUG Element not found yet, remaining time: 8.04
+2022-08-30 20:08:41,729 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:41,747 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:41,747 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:42,247 root DEBUG Element not found yet, remaining time: 7.52
+2022-08-30 20:08:42,248 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:42,268 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:42,268 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:42,769 root DEBUG Element not found yet, remaining time: 7.00
+2022-08-30 20:08:42,769 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:42,773 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:42,774 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:43,274 root DEBUG Element not found yet, remaining time: 6.50
+2022-08-30 20:08:43,274 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:43,278 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:43,278 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:43,779 root DEBUG Element not found yet, remaining time: 5.99
+2022-08-30 20:08:43,779 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:43,783 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:43,783 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:44,284 root DEBUG Element not found yet, remaining time: 5.49
+2022-08-30 20:08:44,284 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:44,288 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:44,288 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:44,789 root DEBUG Element not found yet, remaining time: 4.98
+2022-08-30 20:08:44,789 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:44,793 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:44,793 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:45,294 root DEBUG Element not found yet, remaining time: 4.48
+2022-08-30 20:08:45,294 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:45,298 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:45,298 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:45,799 root DEBUG Element not found yet, remaining time: 3.97
+2022-08-30 20:08:45,799 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:45,820 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:45,820 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:46,321 root DEBUG Element not found yet, remaining time: 3.45
+2022-08-30 20:08:46,321 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:46,326 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:46,326 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:46,826 root DEBUG Element not found yet, remaining time: 2.94
+2022-08-30 20:08:46,827 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:46,833 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:46,833 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:47,333 root DEBUG Element not found yet, remaining time: 2.44
+2022-08-30 20:08:47,334 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:47,345 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:47,346 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:47,846 root DEBUG Element not found yet, remaining time: 1.92
+2022-08-30 20:08:47,847 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:47,867 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:47,867 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:48,368 root DEBUG Element not found yet, remaining time: 1.40
+2022-08-30 20:08:48,369 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:48,388 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:48,389 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:48,890 root DEBUG Element not found yet, remaining time: 0.88
+2022-08-30 20:08:48,890 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:48,910 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:48,911 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:49,412 root DEBUG Element not found yet, remaining time: 0.36
+2022-08-30 20:08:49,413 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:49,432 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:49,432 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:49,933 root DEBUG Element not found yet, remaining time: -0.16
+2022-08-30 20:08:49,934 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/element {"using": "xpath", "value": "//div[@data-testid=\"input-text-controller]>input[contains(., \"Email\")]"}
+2022-08-30 20:08:49,953 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "POST /session/69ab1e3a49e7a2801586a2d4fad74a42/element HTTP/1.1" 400 1223
+2022-08-30 20:08:49,954 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:49,957 root ERROR ElementNotFound: Element //div[@data-testid="input-text-controller]>input[contains(., "Email")] not found using selector xpath:'//div[@data-testid="input-text-controller]>input[contains(., "Email")]'
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 7, in test
+    send_keys('//div[@data-testid="input-text-controller]>input[contains(., "Email")]', 'nala@nalarocks.com')
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 1576, in send_keys
+    element = get_browser().find(element)
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/extended_driver.py", line 177, in find
+    return common._find(self, element, id, name, link_text, partial_link_text, css,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 130, in _find
+    webelement = _find_webelement(self, selector_type, selector_value, element_name,
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/webdriver/common.py", line 46, in _find_webelement
+    raise ElementNotFound('Element {0} not found using selector {1}:\'{2}\''
+golem.core.exceptions.ElementNotFound: Element //div[@data-testid="input-text-controller]>input[contains(., "Email")] not found using selector xpath:'//div[@data-testid="input-text-controller]>input[contains(., "Email")]'
+2022-08-30 20:08:49,958 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42/screenshot {}
+2022-08-30 20:08:50,083 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "GET /session/69ab1e3a49e7a2801586a2d4fad74a42/screenshot HTTP/1.1" 200 166956
+2022-08-30 20:08:50,083 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:08:50,084 root INFO Test Result: CODE ERROR
+2022-08-30 20:08:50,084 root DEBUG test does not have a teardown function
+2022-08-30 20:08:50,084 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:39085/session/69ab1e3a49e7a2801586a2d4fad74a42 {}
+2022-08-30 20:08:50,135 urllib3.connectionpool DEBUG http://127.0.0.1:39085 "DELETE /session/69ab1e3a49e7a2801586a2d4fad74a42 HTTP/1.1" 200 14
+2022-08-30 20:08:50,136 selenium.webdriver.remote.remote_connection DEBUG Finished Request

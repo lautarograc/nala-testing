@@ -1,0 +1,8 @@
+20:10:18.960 INFO Test execution started: login.login
+20:10:18.960 INFO Browser: chrome
+20:10:18.960 ERROR SyntaxError: invalid syntax
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 6
+    navigate(https://es.wikipedia.org/wiki/Wikipedia:Portada)
+                  ^
+SyntaxError: invalid syntax
+

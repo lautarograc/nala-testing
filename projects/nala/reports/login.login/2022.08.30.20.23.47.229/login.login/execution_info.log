@@ -1,0 +1,26 @@
+20:23:47.422 INFO Test execution started: login.login
+20:23:47.422 INFO Browser: chrome
+20:23:47.423 INFO Test started: test
+20:23:47.423 INFO Navigate to: 'https://staging.nalarocks.com/sign-in'
+20:23:49.492 INFO Write 'Messi' in element div[data-testid="input-text-controller"]
+20:23:49.512 ERROR ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=104.0.5112.101)
+
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 7, in test
+    send_keys(('div[data-testid="input-text-controller"]'), 'Messi')
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 1578, in send_keys
+    element.send_keys(text)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=104.0.5112.101)
+20:23:49.676 INFO Test Result: CODE ERROR

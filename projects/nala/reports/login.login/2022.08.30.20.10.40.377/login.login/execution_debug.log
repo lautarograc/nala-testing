@@ -1,0 +1,29 @@
+2022-08-30 20:10:40,575 root INFO Test execution started: login.login
+2022-08-30 20:10:40,575 root INFO Browser: chrome
+2022-08-30 20:10:40,576 root INFO Test started: test
+2022-08-30 20:10:40,576 root INFO Navigate to: 'https://es.wikipedia.org/wiki/Wikipedia:Portada'
+2022-08-30 20:10:41,580 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:55431/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}
+2022-08-30 20:10:41,582 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:55431
+2022-08-30 20:10:41,932 urllib3.connectionpool DEBUG http://127.0.0.1:55431 "POST /session HTTP/1.1" 200 754
+2022-08-30 20:10:41,932 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:10:41,932 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:55431/session/503e703e3b253165806340c2f00a1a60/window/maximize {}
+2022-08-30 20:10:41,936 urllib3.connectionpool DEBUG http://127.0.0.1:55431 "POST /session/503e703e3b253165806340c2f00a1a60/window/maximize HTTP/1.1" 200 50
+2022-08-30 20:10:41,936 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:10:41,936 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:55431/session/503e703e3b253165806340c2f00a1a60/url {"url": "https://es.wikipedia.org/wiki/Wikipedia:Portada"}
+2022-08-30 20:10:43,993 urllib3.connectionpool DEBUG http://127.0.0.1:55431 "POST /session/503e703e3b253165806340c2f00a1a60/url HTTP/1.1" 200 14
+2022-08-30 20:10:43,993 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:10:43,994 root ERROR TypeError: send_keys() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 7, in test
+    send_keys('id', 'searchInput', 'Messi')
+TypeError: send_keys() takes 2 positional arguments but 3 were given
+2022-08-30 20:10:43,994 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:55431/session/503e703e3b253165806340c2f00a1a60/screenshot {}
+2022-08-30 20:10:44,176 urllib3.connectionpool DEBUG http://127.0.0.1:55431 "GET /session/503e703e3b253165806340c2f00a1a60/screenshot HTTP/1.1" 200 756192
+2022-08-30 20:10:44,177 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:10:44,179 root INFO Test Result: CODE ERROR
+2022-08-30 20:10:44,180 root DEBUG test does not have a teardown function
+2022-08-30 20:10:44,180 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:55431/session/503e703e3b253165806340c2f00a1a60 {}
+2022-08-30 20:10:44,231 urllib3.connectionpool DEBUG http://127.0.0.1:55431 "DELETE /session/503e703e3b253165806340c2f00a1a60 HTTP/1.1" 200 14
+2022-08-30 20:10:44,231 selenium.webdriver.remote.remote_connection DEBUG Finished Request

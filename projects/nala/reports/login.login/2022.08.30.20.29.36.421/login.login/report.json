@@ -1,0 +1,37 @@
+[
+    {
+        "test_file": "login.login",
+        "test": "test",
+        "set_name": "",
+        "environment": "",
+        "result": "success",
+        "description": "Login into the website",
+        "browser": "chrome",
+        "test_data": {},
+        "steps": [
+            {
+                "message": "Navigate to: 'https://staging.nalarocks.com/sign-in'",
+                "screenshot": null,
+                "error": null
+            },
+            {
+                "message": "Write 'nala@nalarocks.com' in element div[data-testid=\"input-text-controller\"]>div[class=\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl\"]>input",
+                "screenshot": null,
+                "error": null
+            },
+            {
+                "message": "Write '12341234' in element div[data-testid=\"password-input-controller\"]>input",
+                "screenshot": null,
+                "error": null
+            },
+            {
+                "message": "Click button[class=\"MuiButtonBase-root MuiButton-root MuiButton-text sc-bdvvtL dfZNzl submit general sc-eEvSnX YjAsf MuiButton-fullWidth\"]",
+                "screenshot": null,
+                "error": null
+            }
+        ],
+        "errors": [],
+        "elapsed_time": 9.23,
+        "timestamp": "2022.08.30.20.29.36.604"
+    }
+]

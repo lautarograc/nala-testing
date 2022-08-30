@@ -1,0 +1,70 @@
+18:44:12.532 INFO Test execution started: login.login
+18:44:12.532 INFO Browser: chrome
+18:44:12.532 INFO Test started: test
+18:44:12.532 INFO Navigate to: 'https://staging.nalarocks.com/'
+18:44:13.761 ERROR Could not start chrome driver using the path './drivers/chromedriver*'
+verify that the chromedriver_path setting points to a valid webdriver executable.
+18:44:13.763 INFO Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py", line 78, in validate_exec_path
+    yield matched_executable_path
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py", line 134, in open_browser
+    driver = GolemChromeDriver(executable_path=ex_path,
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+
+
+18:44:13.765 ERROR Exception: Could not start chrome driver using the path './drivers/chromedriver*'
+verify that the chromedriver_path setting points to a valid webdriver executable.
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py", line 78, in validate_exec_path
+    yield matched_executable_path
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py", line 134, in open_browser
+    driver = GolemChromeDriver(executable_path=ex_path,
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 6, in test
+    navigate('https://staging.nalarocks.com/')
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 1402, in navigate
+    get_browser().get(url)
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 1120, in get_browser
+    return browser.get_browser()
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py", line 236, in get_browser
+    open_browser()
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py", line 130, in open_browser
+    with validate_exec_path('chrome', 'chromedriver_path', settings) as ex_path:
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py", line 85, in validate_exec_path
+    raise Exception(msg)
+Exception: Could not start chrome driver using the path './drivers/chromedriver*'
+verify that the chromedriver_path setting points to a valid webdriver executable.
+18:44:13.766 INFO Test Result: CODE ERROR

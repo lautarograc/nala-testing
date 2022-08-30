@@ -1,0 +1,30 @@
+[
+    {
+        "test_file": "login.login",
+        "test": "test",
+        "set_name": "",
+        "environment": "",
+        "result": "code error",
+        "description": "Login into the website",
+        "browser": "chrome",
+        "test_data": {},
+        "steps": [
+            {
+                "message": "Error",
+                "screenshot": null,
+                "error": {
+                    "message": "NameError: name 'actions' is not defined",
+                    "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 4, in test\n    webelement = actions.get_browser().find('data-testid', 'input-text-controller')\nNameError: name 'actions' is not defined"
+                }
+            }
+        ],
+        "errors": [
+            {
+                "message": "NameError: name 'actions' is not defined",
+                "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 4, in test\n    webelement = actions.get_browser().find('data-testid', 'input-text-controller')\nNameError: name 'actions' is not defined"
+            }
+        ],
+        "elapsed_time": 0.0,
+        "timestamp": "2022.08.30.19.43.47.700"
+    }
+]

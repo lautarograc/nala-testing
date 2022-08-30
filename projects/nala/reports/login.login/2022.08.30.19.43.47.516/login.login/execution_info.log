@@ -1,0 +1,11 @@
+19:43:47.701 INFO Test execution started: login.login
+19:43:47.701 INFO Browser: chrome
+19:43:47.701 INFO Test started: test
+19:43:47.702 ERROR NameError: name 'actions' is not defined
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 4, in test
+    webelement = actions.get_browser().find('data-testid', 'input-text-controller')
+NameError: name 'actions' is not defined
+19:43:47.702 INFO Test Result: CODE ERROR

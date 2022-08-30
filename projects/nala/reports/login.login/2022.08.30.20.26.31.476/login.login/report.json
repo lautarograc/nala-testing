@@ -1,0 +1,27 @@
+[
+    {
+        "test_file": "login.login",
+        "test": "test",
+        "set_name": "",
+        "environment": "",
+        "result": "success",
+        "description": "Login into the website",
+        "browser": "chrome",
+        "test_data": {},
+        "steps": [
+            {
+                "message": "Navigate to: 'https://staging.nalarocks.com/sign-in'",
+                "screenshot": null,
+                "error": null
+            },
+            {
+                "message": "Write 'Messi' in element div[data-testid=\"input-text-controller\"]>div[class=\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl\"]>input",
+                "screenshot": null,
+                "error": null
+            }
+        ],
+        "errors": [],
+        "elapsed_time": 12.14,
+        "timestamp": "2022.08.30.20.26.31.674"
+    }
+]

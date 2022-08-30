@@ -1,0 +1,50 @@
+2022-08-30 20:23:47,422 root INFO Test execution started: login.login
+2022-08-30 20:23:47,422 root INFO Browser: chrome
+2022-08-30 20:23:47,423 root INFO Test started: test
+2022-08-30 20:23:47,423 root INFO Navigate to: 'https://staging.nalarocks.com/sign-in'
+2022-08-30 20:23:48,427 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:51693/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["start-maximized"]}}}
+2022-08-30 20:23:48,429 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:51693
+2022-08-30 20:23:48,774 urllib3.connectionpool DEBUG http://127.0.0.1:51693 "POST /session HTTP/1.1" 200 754
+2022-08-30 20:23:48,774 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:23:48,774 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:51693/session/3e528274def68525143b083fd6a950f1/window/maximize {}
+2022-08-30 20:23:48,802 urllib3.connectionpool DEBUG http://127.0.0.1:51693 "POST /session/3e528274def68525143b083fd6a950f1/window/maximize HTTP/1.1" 200 50
+2022-08-30 20:23:48,802 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:23:48,802 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:51693/session/3e528274def68525143b083fd6a950f1/url {"url": "https://staging.nalarocks.com/sign-in"}
+2022-08-30 20:23:49,486 urllib3.connectionpool DEBUG http://127.0.0.1:51693 "POST /session/3e528274def68525143b083fd6a950f1/url HTTP/1.1" 200 14
+2022-08-30 20:23:49,486 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:23:49,486 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:51693/session/3e528274def68525143b083fd6a950f1/element {"using": "css selector", "value": "div[data-testid=\"input-text-controller\"]"}
+2022-08-30 20:23:49,492 urllib3.connectionpool DEBUG http://127.0.0.1:51693 "POST /session/3e528274def68525143b083fd6a950f1/element HTTP/1.1" 200 88
+2022-08-30 20:23:49,492 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:23:49,492 root DEBUG Element found
+2022-08-30 20:23:49,492 root INFO Write 'Messi' in element div[data-testid="input-text-controller"]
+2022-08-30 20:23:49,492 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:51693/session/3e528274def68525143b083fd6a950f1/element/c48e5e35-5ba2-4b79-8328-b0e1fae1bce9/value {"text": "Messi", "value": ["M", "e", "s", "s", "i"], "id": "c48e5e35-5ba2-4b79-8328-b0e1fae1bce9"}
+2022-08-30 20:23:49,511 urllib3.connectionpool DEBUG http://127.0.0.1:51693 "POST /session/3e528274def68525143b083fd6a950f1/element/c48e5e35-5ba2-4b79-8328-b0e1fae1bce9/value HTTP/1.1" 400 830
+2022-08-30 20:23:49,511 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:23:49,512 root ERROR ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=104.0.5112.101)
+
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 7, in test
+    send_keys(('div[data-testid="input-text-controller"]'), 'Messi')
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py", line 1578, in send_keys
+    element.send_keys(text)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=104.0.5112.101)
+2022-08-30 20:23:49,512 selenium.webdriver.remote.remote_connection DEBUG GET http://127.0.0.1:51693/session/3e528274def68525143b083fd6a950f1/screenshot {}
+2022-08-30 20:23:49,675 urllib3.connectionpool DEBUG http://127.0.0.1:51693 "GET /session/3e528274def68525143b083fd6a950f1/screenshot HTTP/1.1" 200 166956
+2022-08-30 20:23:49,676 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2022-08-30 20:23:49,676 root INFO Test Result: CODE ERROR
+2022-08-30 20:23:49,677 root DEBUG test does not have a teardown function
+2022-08-30 20:23:49,677 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:51693/session/3e528274def68525143b083fd6a950f1 {}
+2022-08-30 20:23:49,728 urllib3.connectionpool DEBUG http://127.0.0.1:51693 "DELETE /session/3e528274def68525143b083fd6a950f1 HTTP/1.1" 200 14
+2022-08-30 20:23:49,728 selenium.webdriver.remote.remote_connection DEBUG Finished Request

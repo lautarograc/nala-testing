@@ -1,0 +1,60 @@
+{
+    "tests": [
+        {
+            "test_file": "login.login",
+            "test": "test",
+            "set_name": "",
+            "environment": "",
+            "result": "code error",
+            "description": "Login into the website",
+            "browser": "chrome",
+            "test_data": {},
+            "steps": [
+                {
+                    "message": "Navigate to: 'https://staging.nalarocks.com/sign-in'",
+                    "screenshot": null,
+                    "error": null
+                },
+                {
+                    "message": "Write 'Messi' in element div[data-testid=\"input-text-controller\"]",
+                    "screenshot": null,
+                    "error": null
+                },
+                {
+                    "message": "Error",
+                    "screenshot": "Error_3c0d2.png",
+                    "error": {
+                        "message": "ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=104.0.5112.101)\n",
+                        "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 7, in test\n    send_keys(('div[data-testid=\"input-text-controller\"]'), 'Messi')\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py\", line 1578, in send_keys\n    element.send_keys(text)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 477, in send_keys\n    self._execute(Command.SEND_KEYS_TO_ELEMENT,\n  File \"/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\nselenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=104.0.5112.101)"
+                    }
+                }
+            ],
+            "errors": [
+                {
+                    "message": "ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=104.0.5112.101)\n",
+                    "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 7, in test\n    send_keys(('div[data-testid=\"input-text-controller\"]'), 'Messi')\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py\", line 1578, in send_keys\n    element.send_keys(text)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 477, in send_keys\n    self._execute(Command.SEND_KEYS_TO_ELEMENT,\n  File \"/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\nselenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=104.0.5112.101)"
+                }
+            ],
+            "elapsed_time": 2.25,
+            "timestamp": "2022.08.30.20.23.47.422"
+        }
+    ],
+    "params": {
+        "browsers": [
+            {
+                "name": "chrome",
+                "capabilities": {}
+            }
+        ],
+        "processes": 1,
+        "environments": [],
+        "tags": [],
+        "remote_url": ""
+    },
+    "total_tests": 1,
+    "totals_by_result": {
+        "code error": 1
+    },
+    "net_elapsed_time": 2.31,
+    "has_finished": true
+}

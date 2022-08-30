@@ -1,0 +1,12 @@
+18:56:55.882 INFO Test execution started: login.login
+18:56:55.882 INFO Browser: chrome
+18:56:55.883 INFO Test started: test
+18:56:55.883 INFO Navigate to: 'https://staging.nalarocks.com/'
+18:56:58.161 ERROR NameError: name 'nala' is not defined
+Traceback (most recent call last):
+  File "/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "/home/lautaro/test_directory/projects/nala/tests/login/login.py", line 7, in test
+    send_keys(('id', 'input-text-controller'), nala@nalarocks.com)
+NameError: name 'nala' is not defined
+18:56:58.327 INFO Test Result: CODE ERROR

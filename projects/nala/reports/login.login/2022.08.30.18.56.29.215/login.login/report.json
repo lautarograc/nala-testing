@@ -1,0 +1,35 @@
+[
+    {
+        "test_file": "login.login",
+        "test": "test",
+        "set_name": "",
+        "environment": "",
+        "result": "code error",
+        "description": "Login into the website",
+        "browser": "chrome",
+        "test_data": {},
+        "steps": [
+            {
+                "message": "Navigate to: 'https://staging.nalarocks.com/'",
+                "screenshot": null,
+                "error": null
+            },
+            {
+                "message": "Error",
+                "screenshot": null,
+                "error": {
+                    "message": "Exception: No executable file found using path /home/lautaro/test_directory/drivers/chromedriver.exe",
+                    "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 6, in test\n    navigate('https://staging.nalarocks.com/')\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py\", line 1402, in navigate\n    get_browser().get(url)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py\", line 1120, in get_browser\n    return browser.get_browser()\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py\", line 236, in get_browser\n    open_browser()\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py\", line 130, in open_browser\n    with validate_exec_path('chrome', 'chromedriver_path', settings) as ex_path:\n  File \"/usr/lib/python3.10/contextlib.py\", line 135, in __enter__\n    return next(self.gen)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py\", line 89, in validate_exec_path\n    raise Exception(msg)\nException: No executable file found using path /home/lautaro/test_directory/drivers/chromedriver.exe"
+                }
+            }
+        ],
+        "errors": [
+            {
+                "message": "Exception: No executable file found using path /home/lautaro/test_directory/drivers/chromedriver.exe",
+                "description": "Traceback (most recent call last):\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/test_runner/test_runner.py\", line 202, in run_test_function\n    f(execution.data)\n  File \"/home/lautaro/test_directory/projects/nala/tests/login/login.py\", line 6, in test\n    navigate('https://staging.nalarocks.com/')\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py\", line 1402, in navigate\n    get_browser().get(url)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/actions.py\", line 1120, in get_browser\n    return browser.get_browser()\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py\", line 236, in get_browser\n    open_browser()\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py\", line 130, in open_browser\n    with validate_exec_path('chrome', 'chromedriver_path', settings) as ex_path:\n  File \"/usr/lib/python3.10/contextlib.py\", line 135, in __enter__\n    return next(self.gen)\n  File \"/home/lautaro/env/lib/python3.10/site-packages/golem/browser.py\", line 89, in validate_exec_path\n    raise Exception(msg)\nException: No executable file found using path /home/lautaro/test_directory/drivers/chromedriver.exe"
+            }
+        ],
+        "elapsed_time": 0.0,
+        "timestamp": "2022.08.30.18.56.29.401"
+    }
+]
