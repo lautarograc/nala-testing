@@ -5,6 +5,14 @@
   },
   "login.login": {
     "tags": [],
-    "timestamp": 1661902172.131165
+    "timestamp": 1662616573.9019494
+  },
+  "user.create_user": {
+    "tags": [],
+    "timestamp": 1662617588.3651495
+  },
+  "user.login": {
+    "tags": [],
+    "timestamp": 1662620456.295559
   }
 }
